@@ -1,12 +1,32 @@
+.tasksContainer {
+    padding: 3px;
+    margin: 10px;
+    border: 0.25px solid rgb(211, 211, 211);
+    border-radius: 3px;
+    width: 32.8vw;
+    flex-flow: flex column;
+    justify-content: center;
+}
+
 .task {
-    width: 20vw;
+    width: 30vw;
     padding: 10px;
     border: 0.25px solid rgb(211, 211, 211);
     border-radius: 3px;
     margin: 5px;
+    display: flex;
+}
+
+.taskInfo {
+    flex: 2;
+    color: rgb(1, 61, 102);
 }
 
 .input {
-    width: 20vw;
+    width: 30vw;
     padding-top: 10px;
+}
+
+.changes {
+    flex: 1;
 }
