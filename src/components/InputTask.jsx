@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./Tasks.module.css";
 
 const InputTask = ({ addTask }) => {
     const [input, setInput] = useState("");
@@ -10,9 +11,11 @@ const InputTask = ({ addTask }) => {
     };
 
     return (
-        <form onSubmit={submitTask}>
+        <form className={styles.input} onSubmit={submitTask}>
             <input
+                className={styles.task}
                 type="text"
+                placeholder="add new task"
                 name="task"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}

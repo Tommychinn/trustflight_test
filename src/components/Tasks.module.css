@@ -1,0 +1,11 @@
+.task {
+    width: 20vw;
+    padding: 10px;
+    border: 0.25px solid rgb(211, 211, 211);
+    border-radius: 3px;
+}
+
+.input {
+    width: 20vw;
+    padding-top: 10px;
+}
